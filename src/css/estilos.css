@@ -1,6 +1,7 @@
 body {
     font-family: 'ssf4', Courier, monospace;
     background: var(--cor-secundaria);
+    overflow-y: hidden;
 }
 
 body::before {
@@ -154,4 +155,32 @@ main {
     display: block;
     animation: text-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
+}
+
+/*configuração do play de video*/
+
+button {
+    background: red;
+    position: relative;
+    transform: translate(1500%, -2149%);
+    width: 100px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(255, 126, 56);
+}
+
+span {
+    position: absolute;
+    left: 76%;
+    top: 2%;
+    font-size: 30px;
+    color: white;
+}
+
+.video-screen {
+    display: none;
 }
