@@ -1,4 +1,5 @@
 const personagens = document.querySelectorAll('.personagem')
+let audio = document.getElementsByClassName('audio-som')[0];
 
 personagens.forEach((personagem) => {
     personagem.addEventListener('mouseenter', () => {
@@ -20,6 +21,7 @@ personagens.forEach((personagem) => {
        const nomeSeleceionado = personagem.getAttribute('data-name');
 
        nomejogador1.innerHTML = nomeSeleceionado;
+       audio.play();
     });
 });
 
