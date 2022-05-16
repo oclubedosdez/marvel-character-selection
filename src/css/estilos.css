@@ -1,12 +1,12 @@
 body {
     font-family: 'ssf4', Courier, monospace;
     background: var(--cor-secundaria);
-    overflow-y: hidden;
+    overflow:hidden;
 }
 
 body::before {
     content: '';
-    background-image: url("../imagens/1cYrMYF.gif");
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -162,7 +162,6 @@ main {
 button {
     background: red;
     position: relative;
-    transform: translate(1500%, -2149%);
     width: 100px;
     color: white;
     border-radius: 20px;
@@ -173,14 +172,21 @@ button:hover {
     background: rgb(255, 126, 56);
 }
 
-span {
+.music {
     position: absolute;
-    left: 76%;
-    top: 2%;
+    left: 72%;
+    top: 16%;
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
+    transform: translate(28%, -150%);
 }
 
 .video-screen {
     display: none;
+}
+
+.botoes {
+    margin-left:1210px;
+    width: 400px;
+    transform: translate(30%, -1675%);
 }
