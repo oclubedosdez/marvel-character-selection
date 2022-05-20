@@ -93,8 +93,8 @@ main {
 .selecao-de-personagens .lista-de-personagens .personagem {
     border: 2px solid var(--cor-padrao);
     background-color: var(--cor-padrao);
-    width: 30%;
-    height: 160px;
+    width: 20%;
+    height: 140px;
     cursor: pointer;
     z-index: 2;
     border-radius: 5px;
@@ -188,5 +188,5 @@ button:hover {
 .botoes {
     margin-left:1210px;
     width: 400px;
-    transform: translate(30%, -1675%);
+    transform: translate(30%, -1720%);
 }
